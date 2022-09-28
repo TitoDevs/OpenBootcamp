@@ -99,8 +99,8 @@ public class Main {
         // InputStream y PrintStream
         System.out.println("\nInputStream y PrintStream");
         try {
-            InputStream fileIn = new FileInputStream("C:/Users/daniel/Github");
-            PrintStream fileOut = new PrintStream("destino.txt");
+            InputStream fileIn = new FileInputStream("C:\\Users\\daniel\\Github\\entrada.txt");
+            PrintStream fileOut = new PrintStream("C:\\Users\\daniel\\Github\\destino.txt");
             Conversion(fileIn, fileOut);
         } catch (Exception e) {
             System.out.println(e.getMessage());
