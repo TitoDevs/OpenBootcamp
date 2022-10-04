@@ -1,4 +1,4 @@
-# 1. Introducción a Python:
+# Introducción a Python:
 
 ###  Encunciado del ejercicio:
 Desde la consola de python almacena la cadena “Hola mundo!” en una variable y muéstrala.
