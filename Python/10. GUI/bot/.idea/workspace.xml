@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e89cdcf-b1f9-4fb2-bdcf-45cc59f56921" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../bot/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bot/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bot/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bot/bot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bot/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="041fec9c-43b4-4ca0-ba3c-72db77e87644" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FloKT7JLxm7vveAFHeMILvaghP" />
+  <component name="ProjectId" id="2FoHdlgR0boNKsbPk0ibYYH109e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -39,23 +37,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/danie/OneDrive/Documentos/Github/OpenBootcamp/Python/10. GUI/ejercicio1",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2e89cdcf-b1f9-4fb2-bdcf-45cc59f56921" name="Changes" comment="" />
-      <created>1665075978103</created>
+      <changelist id="041fec9c-43b4-4ca0-ba3c-72db77e87644" name="Changes" comment="" />
+      <created>1665151626857</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665075978103</updated>
+      <updated>1665151626857</updated>
     </task>
     <servers />
   </component>
