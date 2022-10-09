@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e89cdcf-b1f9-4fb2-bdcf-45cc59f56921" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ejercicio2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicio2/ejercicio2.iml" afterDir="false" />
+    <list default="true" id="9f1e2598-e5cb-444e-a59f-b00f647adb07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +28,8 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FloKT7JLxm7vveAFHeMILvaghP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2FucP403xIJmh3h6tlszy8hyHfB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,8 +39,6 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/danie/OneDrive/Documentos/Github/OpenBootcamp/Python/10. GUI/ejercicio1",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -49,11 +47,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2e89cdcf-b1f9-4fb2-bdcf-45cc59f56921" name="Changes" comment="" />
-      <created>1665075978103</created>
+      <changelist id="9f1e2598-e5cb-444e-a59f-b00f647adb07" name="Changes" comment="" />
+      <created>1665345397628</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665075978103</updated>
+      <updated>1665345397628</updated>
     </task>
     <servers />
   </component>
@@ -67,8 +65,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
