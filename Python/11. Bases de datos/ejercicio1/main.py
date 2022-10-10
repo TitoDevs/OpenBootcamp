@@ -8,6 +8,8 @@ def main():
     crear_usuario(4, "Daniel", "Guardado")
     crear_usuario(5, "Carmen", "Dodero")
     crear_usuario(6, "Alejandro", "Perez")
+    crear_usuario(7, "Estefania", "Jaen")
+    crear_usuario(8, "Sofia", "Rodriguez")
 
 
 def crear_usuario(id, username, surname):
