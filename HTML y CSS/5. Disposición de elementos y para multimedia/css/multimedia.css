@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.imagen-principal {
+    width: 100vw;
+    opacity: 0.5;
+}
+
+.imagen-principal:hover {
+    opacity: 1;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen-galeria {
+    width: 140px;
+}
+
+.imagen-galeria:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.video {
+    width: 100vw;
+    height: 100vw;
+    object-fit: cover;
+    position: fixed;
+}
+
+.header {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
