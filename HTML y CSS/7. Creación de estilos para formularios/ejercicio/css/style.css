@@ -4,6 +4,11 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+html {
+    background-color: #161717;
+    color: white;
+}
+
 .container {
     margin: auto;
     display: flex;
@@ -110,7 +115,7 @@ label span {
 
 .section-inputs label input {
     width: 80%;
-    background-color: #F3f3f4;
+    background-color: #212121;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -120,7 +125,7 @@ label span {
 
 label input {
     width: 90%;
-    background-color: #F3f3f4;
+    background-color: #212121;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -131,7 +136,7 @@ label input {
 
 
 label input:hover {
-    background-color: white;
+    background-color: #454045;
     border: solid 1px #f3f3f4;
     box-shadow: 0 0 4px #eb50ff4f;
 }
