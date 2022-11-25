@@ -1,0 +1,19 @@
+// Componentes
+@use "sass/componentes";
+// namespace
+// $color => componenntes.$color
+
+// Mixin
+@use "sass/mixins";
+// &color => mixins.$color
+
+// Estilos
+@use "sass/estilos";
+
+// Páginas
+// pagina principal
+// pagina de contacto
+// pagina de aviso legal
+
+// Otros
+@use "sass/builtin";
