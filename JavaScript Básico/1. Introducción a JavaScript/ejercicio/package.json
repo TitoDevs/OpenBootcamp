@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio",
+  "version": "1.0.0",
+  "description": "Nuevo proyecto de Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "Hola, este es mi primer ejercicio con Node en el mejor Boorcamp de programación del mundo."
+  },
+  "author": "TitoDev",
+  "license": "ISC"
+}

@@ -96,6 +96,10 @@
   font-weight: 600;
 }
 
+html {
+  min-width: 100vw;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -131,6 +135,12 @@ body {
 .sec-home .home-cta .home-title {
   width: 20rem;
   font-size: 3rem;
+}
+.sec-home .home-cta .home-description {
+  width: 300px;
+}
+.sec-home .home-cta .lead-magnet .input-col {
+  max-width: 200px;
 }
 .sec-home .home-img img {
   height: 25rem;
@@ -189,13 +199,13 @@ body {
 }
 .sec-benefits .benefits-cards {
   width: 100%;
-  padding: 0 2rem 2rem 2rem;
+  padding: 0 10rem 2rem 10rem;
 }
 
 .sec-kpis {
   background-color: #0075FF;
   color: white;
-  padding: 4rem;
+  padding: 4rem 10rem 4rem 10rem;
   width: 100%;
 }
 .sec-kpis .kpi {
@@ -213,32 +223,84 @@ body {
 }
 
 .sec-onboarding .steps {
-  padding: 0 7rem 5rem 7rem;
+  padding: 0 10rem 5rem 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.sec-onboarding .steps .icon-desc {
+  text-align: center;
 }
 .sec-onboarding .steps .step-separator {
   flex: 1;
   border-top: 2px solid #ddd;
   margin: 0 1rem;
+  max-width: 150px;
 }
 
 .sec-footer-cta {
   background-color: #f4f8fe;
-  padding: 5rem;
+  padding: 5rem 10rem 5rem;
   background-image: url(../assets/img/astronauta.webp);
   background-repeat: no-repeat;
   background-position: 100%;
 }
 .sec-footer-cta .footer-cta {
-  max-width: 50%;
+  width: 50%;
 }
 .sec-footer-cta .footer-cta .cta-title {
   font-size: 2rem;
 }
 .sec-footer-cta .footer-cta .cta-description {
   font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .sec-onboarding .intro h3 {
+    text-align: center;
+  }
+  .sec-onboarding .intro p {
+    text-align: center;
+  }
+  .sec-onboarding .steps {
+    flex-direction: column;
+    padding: 0 2rem 5rem 2rem;
+  }
+  .sec-onboarding .steps .icon-desc .title {
+    text-align: center;
+  }
+  .sec-footer-cta {
+    background-image: none;
+    padding: 10rem 2rem 10rem 2rem;
+  }
+  .sec-footer-cta .footer-cta {
+    width: 100%;
+    text-align: center;
+  }
+  .sec-benefits .intro {
+    text-align: center;
+  }
+  .sec-benefits .intro h3 {
+    font-size: 2rem;
+  }
+  .sec-benefits .benefits-cards {
+    margin: 0;
+    padding: 0 2rem 2rem 2rem;
+  }
+  .sec-features .intro, .sec-benefits .intro .intro, .sec-onboarding .intro .intro {
+    text-align: center;
+  }
+  .sec-features .intro h3, .sec-benefits .intro .intro h3, .sec-onboarding .intro .intro h3 {
+    font-size: 2rem;
+  }
+  .sec-kpis.row {
+    margin: 0;
+    text-align: center;
+    padding: 4rem 2rem 4rem 2rem;
+  }
+  .sec-kpis.row .kpi {
+    margin-bottom: 1rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

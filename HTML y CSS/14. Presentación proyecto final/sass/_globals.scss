@@ -37,7 +37,7 @@ body {
         flex: 1;
         
         .cta-text {
-            color: red;
+            color: components.$color-main;
         }
 
         .home-title {
@@ -129,14 +129,14 @@ body {
     
     .benefits-cards {
         width: 100%;
-        padding: 0 2rem 2rem 2rem;
+        padding: 0 10rem 2rem 10rem;
     }
 }
 
 .sec-kpis {
     background-color: components.$color-main;
     color: white;
-    padding: 4rem;
+    padding: 4rem 10rem 4rem 10rem;
     width: 100%;
 
     .kpi {
@@ -162,28 +162,33 @@ body {
     }
 
     .steps {
-        padding: 0 7rem 5rem 7rem;
+        padding: 0 10rem 5rem 10rem;
         display: flex;
         align-items: center;
         justify-content: center;
+
+        .icon-desc {
+            text-align: center;
+        }
 
         .step-separator {
             flex: 1;
             border-top: 2px solid #ddd;
             margin: 0 1rem;
+            max-width: 150px;
         }
     }
 }
 
 .sec-footer-cta {
     background-color: components.$color-footer;
-    padding: 5rem;
+    padding: 5rem 10rem 5rem;
     background-image: url(../assets/img/astronauta.webp);
     background-repeat: no-repeat;
     background-position: 100%;
 
     .footer-cta {
-        max-width: 50%;
+        width: 50%;
         .cta-title {
             font-size: 2rem;
         }
@@ -198,9 +203,18 @@ body {
 
     .sec-onboarding {
 
+        .intro {
+            h3 {
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+        }
+
         .steps {
             flex-direction: column;
-
+            padding: 0 2rem 5rem 2rem;
             .icon-desc {
 
                 .title {
@@ -212,7 +226,7 @@ body {
 
     .sec-footer-cta {
         background-image: none;
-
+        padding: 10rem 2rem 10rem 2rem;
         .footer-cta {
             width: 100%;
             text-align: center;
@@ -226,13 +240,29 @@ body {
                 font-size: 2rem;
             }
         }
+
+        .benefits-cards {
+            margin: 0;
+            padding: 0 2rem 2rem 2rem;
+        }
     }
 
     .sec-features {
         .intro {
+            text-align: center;
             h3 {
                 font-size: 2rem;
             }
+        }
+    }
+
+    .sec-kpis.row {
+        margin: 0;
+        text-align: center;
+        padding: 4rem 2rem 4rem 2rem;
+
+        .kpi {
+            margin-bottom: 1rem;
         }
     }
 }
