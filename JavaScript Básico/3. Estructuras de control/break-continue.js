@@ -6,7 +6,7 @@ let decenas = 0;
 
 bucleDecenas: while (true) {
     bucleUnidades: while (true) {
-        console.log('El número actual es: ${decenas}${unidades}');
+        console.log(`El número actual es: ${decenas}${unidades}`);
         unidades++;
         if (unidades === 10) {
             unidades = 0;
