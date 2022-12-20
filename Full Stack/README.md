@@ -81,5 +81,5 @@ principales que se asocian con su perfil son:
 - Orientación a resultados.
 - Saber trabajar en equipo.
 
-# Enlaces
+# Enlaces externos
 - https://profile.es/blog/desarrollador-full-stack/
