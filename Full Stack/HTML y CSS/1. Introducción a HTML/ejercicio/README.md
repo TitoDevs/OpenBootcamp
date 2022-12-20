@@ -1,4 +1,4 @@
-# Introducción a HTML
+# Ejercicio: Introducción a HTML
 Crea un nuevo documento HTML e implementa lo siguiente:
 - Utiliza la etiqueta de título para poner en el título "Ejercicio de Introducción a HTML en OpenBootcamp"
 - Dentro de la etiqueta body pon un comentario de dos líneas
