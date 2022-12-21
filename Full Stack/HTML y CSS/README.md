@@ -1,4 +1,4 @@
-![11](https://user-images.githubusercontent.com/75398496/208773979-89f163eb-5e6b-40d2-9a6b-63cd32181cea.png)
+![Banner Linkedin (8)](https://user-images.githubusercontent.com/75398496/208786894-d7355eb9-85b6-4d99-8e20-2ad181026faa.png)
 
 # ¿Qué es HTML y CSS?
 El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos. Como lo sugiere el título, este artículo te dará una comprensión básica de HTML y cúal es su función.
