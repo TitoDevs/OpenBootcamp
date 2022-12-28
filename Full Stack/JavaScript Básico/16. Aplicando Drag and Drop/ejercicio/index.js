@@ -34,15 +34,10 @@ secciones.forEach(seccion => {
 
 papelera.addEventListener("dragover", event => {
     event.preventDefault()
-    const id_parrafo = event.dataTransfer.getData("id")
-    // console.log("Párrafo id: " + id_parrafo)
-    const parrafo = document.getElementById(id_parrafo)
-    papelera.appendChild(parrafo)
+    event.dataTransfer.dropEffect = "copy"
 })
 
 papelera.addEventListener("drop", event => {
     const id_parrafo = event.dataTransfer.getData("id")
-    // console.log("Párrafo id: " + id_parrafo)
-    const parrafo = document.getElementById(id_parrafo)
-    papelera.appendChild(parrafo)
+    document.getElementById(id_parrafo).remove()
 })
