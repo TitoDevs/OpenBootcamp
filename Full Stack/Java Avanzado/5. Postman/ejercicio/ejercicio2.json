@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "d343363f-d8b6-499b-a18b-7deadfe17376",
+		"name": "Prueba 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25267939"
+	},
+	"item": [
+		{
+			"name": "Listar todos los usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url2}}/api/users?page=2",
+					"host": [
+						"{{url2}}"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url2}}/api/users?name=\"tito\"&job=\"developer\"",
+					"host": [
+						"{{url2}}"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "\"tito\""
+						},
+						{
+							"key": "job",
+							"value": "\"developer\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener un usuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url2}}/api/users/3",
+					"host": [
+						"{{url2}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url2",
+			"value": "https://reqres.in",
+			"type": "string"
+		}
+	]
+}
