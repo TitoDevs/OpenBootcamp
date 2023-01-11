@@ -5,11 +5,10 @@ public class Funcionales {
     private Function<String, String> toMayus = (x) -> x.toUpperCase();
     private Function<Integer, Integer> sumador = (x) -> x.sum(x, x);
     public void pruebas() {
-        toMayus.apply("Tito");
-        sumador.apply(5);
+        saluda(toMayus, "Tito");
     }
 
-    public String toMayus(String x) {
-        return x.toUpperCase();
+    public void saluda(Function<String, String> mifuncion, String nombre) {
+        mifuncion.apply(nombre);
     }
 }
