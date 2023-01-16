@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85af7d1e-ea28-4563-8779-6a45d76f28ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../7. Patrones creacionales/PatronesCreacionales/src/Builder/CocheBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7. Patrones creacionales/PatronesCreacionales/src/Builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7. Patrones creacionales/PatronesCreacionales/src/Builder/Vehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7. Patrones creacionales/PatronesCreacionales/src/Factory/PrecioGBP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7. Patrones creacionales/PatronesCreacionales/src/Prototype/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7. Patrones creacionales/PatronesCreacionales/src/Prototype/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7. Patrones creacionales/PatronesCreacionales/src/Prototype/Moto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7. Patrones creacionales/PatronesCreacionales/out/production/PatronesCreacionales/Factory/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../7. Patrones creacionales/PatronesCreacionales/out/production/PatronesCreacionales/Factory/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7. Patrones creacionales/PatronesCreacionales/out/production/PatronesCreacionales/Factory/PrecioFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../7. Patrones creacionales/PatronesCreacionales/out/production/PatronesCreacionales/Factory/PrecioFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7. Patrones creacionales/PatronesCreacionales/src/Factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../7. Patrones creacionales/PatronesCreacionales/src/Factory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7. Patrones creacionales/PatronesCreacionales/src/Factory/PrecioFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../7. Patrones creacionales/PatronesCreacionales/src/Factory/PrecioFactory.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2KPRax0pifwBZfsTsxJ1AFLGqZX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/danie/OneDrive/Documentos/Github/OpenBootcamp/Full Stack/Java Avanzado/8. Patrones estructurales"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85af7d1e-ea28-4563-8779-6a45d76f28ff" name="Changes" comment="" />
+      <created>1673874298935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673874298935</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

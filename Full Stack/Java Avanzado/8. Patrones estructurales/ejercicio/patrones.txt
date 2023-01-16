@@ -1,0 +1,13 @@
+- Patrón de diseño de fábrica: Este patrón proporciona una interfaz para crear objetos en una superclase, pero permite a las subclases cambiar la clase de objeto que se crea. Es útil para cuando una clase no sabe qué clases concretas se deben crear. Ejemplo de uso: un juego de construcción de edificios donde los edificios se crean a través de una fábrica de edificios.
+
+- Patrón de diseño de estrategia: Este patrón permite a un objeto cambiar su comportamiento en tiempo de ejecución al intercambiar una clase por otra. Es útil para cuando un algoritmo debe variar según el contexto. Ejemplo de uso: un juego de estrategia donde los jugadores pueden elegir entre diferentes estrategias para ganar la partida.
+
+- Patrón de diseño de decorador: Este patrón permite añadir comportamiento adicional a un objeto dinámicamente, en lugar de utilizar herencia. Es útil para cuando se quieren añadir funcionalidades a un objeto de forma incremental. Ejemplo de uso: una aplicación de dibujo donde los objetos se pueden decorar con diferentes patrones de relleno.
+
+- Patrón de diseño de observador: Este patrón permite a varios objetos estar "observando" a un objeto principal, y ser notificados automáticamente cuando este objeto cambia. Es útil para cuando varios objetos deben estar sincronizados con los cambios en otro objeto. Ejemplo de uso: una aplicación de redes sociales donde varios amigos pueden "observar" las actualizaciones de estado de un usuario.
+
+- Patrón de diseño Singleton: Este patrón garantiza que una clase solo tenga una instancia y proporciona un punto de acceso global a ella. Es útil para cuando una clase debe tener solo una instancia y se debe proporcionar un acceso fácil a ella. Ejemplo de uso: una aplicación de gestión de configuración donde solo debe haber una instancia de la clase de configuración.
+
+
+
+

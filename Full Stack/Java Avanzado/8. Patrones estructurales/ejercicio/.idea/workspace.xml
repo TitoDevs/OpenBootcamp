@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3d60287-3dc1-43fd-a3f0-680d2b349ec0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../7. Patrones creacionales/PatronesCreacionales/src/Builder/CocheBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. Patrones creacionales/PatronesCreacionales/src/Builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. Patrones creacionales/PatronesCreacionales/src/Builder/Vehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. Patrones creacionales/PatronesCreacionales/src/Factory/PrecioGBP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. Patrones creacionales/PatronesCreacionales/src/Prototype/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. Patrones creacionales/PatronesCreacionales/src/Prototype/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. Patrones creacionales/PatronesCreacionales/src/Prototype/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/8. Patrones estructurales.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/Patrones estructurales.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Adapter/Enchufable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Adapter/Horno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Adapter/Lampara.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Adapter/Lightbulb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Adapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Adapter/PowerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Decorator/Telefono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Decorator/TelefonoBasico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Decorator/TelefonoDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Decorator/TelefonoInteligente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Decorator/TelefonoNextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Facade/AudioMixer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Facade/BitrateReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Facade/Codec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Facade/CodecFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Facade/MPEG4CompressionCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Facade/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Facade/OggCompressionCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Facade/VideoConversionFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patrones estructurales/src/Facade/VideoFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patrones.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aplicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. Patrones creacionales/PatronesCreacionales/out/production/PatronesCreacionales/Factory/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../7. Patrones creacionales/PatronesCreacionales/out/production/PatronesCreacionales/Factory/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. Patrones creacionales/PatronesCreacionales/out/production/PatronesCreacionales/Factory/PrecioFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../7. Patrones creacionales/PatronesCreacionales/out/production/PatronesCreacionales/Factory/PrecioFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. Patrones creacionales/PatronesCreacionales/src/Factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../7. Patrones creacionales/PatronesCreacionales/src/Factory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. Patrones creacionales/PatronesCreacionales/src/Factory/PrecioFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../7. Patrones creacionales/PatronesCreacionales/src/Factory/PrecioFactory.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KPnrx5WcoxfgCRi4smoxjVCRlU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3d60287-3dc1-43fd-a3f0-680d2b349ec0" name="Changes" comment="" />
+      <created>1673885290915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673885290915</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
