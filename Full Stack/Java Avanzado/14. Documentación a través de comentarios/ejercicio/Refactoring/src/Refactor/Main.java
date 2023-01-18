@@ -9,7 +9,6 @@ public class Main {
                 .conModelo("b")
                 .conMotor("electrico")
                 .conPuertas(5);
-
         esOpenJDKJavaEnMacOS();
     }
 
@@ -32,7 +31,7 @@ public class Main {
         }
         return isDomingo;
     }
-    
+
     public static void imprimeMayorYMenor(int[] numeros) {
         // Número mayor
         int imayor = Arrays.stream(numeros)
