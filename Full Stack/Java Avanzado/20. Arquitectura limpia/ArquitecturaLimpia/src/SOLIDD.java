@@ -28,9 +28,8 @@ public static class main {
         SOLIDD solido = new SOLIDD();
 
         BDDFile bbdd = new BDDFile();
-        BDDMySQL otrabbdd = new BDDMySQL();
 
         solido.dameDatos(bbdd);
-        solido.tomaDatos(otrabbdd);
+        solido.tomaDatos(bbdd);
     }
 }
