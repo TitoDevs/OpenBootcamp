@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f841a84f-e5e4-4042-8735-e758abe2ba8b" name="Changes" comment="">
+    <list default="true" id="830b9e5b-7ebe-4681-9902-5b21e3f6fdfb" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/.idea/aws.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/.idea/misc.xml" afterDir="false" />
@@ -13,6 +13,7 @@
       <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Codigo/Inicial/Usuario.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Codigo/Inicial/Usuarios.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Codigo/Inicial/UsuariosDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Codigo/Inicial/UsuariosDBEstadisticas.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Codigo/Inicial/UsuariosDBFichero.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Codigo/Inicial/UsuariosDBMemoria.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Demo1/Animal.java" afterDir="false" />
@@ -23,7 +24,19 @@
       <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Demo1/RelojImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Demo1/RelojInteligente.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Demo1/RelojInteligenteImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soliD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DatabaseMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DatabaseSQLite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DatabaseStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../24. Aplicando la L de SOLID/soLid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../24. Aplicando la L de SOLID/soLid/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +46,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,7 +57,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Kh7zyHloQeGszomy2m3CCeJWLA" />
+  <component name="ProjectId" id="2KhdiCH2qwwBnyWBBpr2JRnaYtv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,37 +67,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/danie/OneDrive/Documentos/Github/OpenBootcamp/Full Stack/Java Avanzado/24. Aplicando la L de SOLID/soLid"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\danie\OneDrive\Documentos\Github\OpenBootcamp\Full Stack\Java Avanzado\24. Aplicando la L de SOLID\soLid\src" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="soLid" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f841a84f-e5e4-4042-8735-e758abe2ba8b" name="Changes" comment="" />
-      <created>1674415229705</created>
+      <changelist id="830b9e5b-7ebe-4681-9902-5b21e3f6fdfb" name="Changes" comment="" />
+      <created>1674430877425</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1674415229705</updated>
+      <updated>1674430877425</updated>
     </task>
     <servers />
   </component>
