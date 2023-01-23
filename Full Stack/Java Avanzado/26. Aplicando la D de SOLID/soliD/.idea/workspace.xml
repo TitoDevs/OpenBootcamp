@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="830b9e5b-7ebe-4681-9902-5b21e3f6fdfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/solId.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Codigo/Inicial/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Codigo/Inicial/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Codigo/Inicial/Usuarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Codigo/Inicial/UsuariosDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Codigo/Inicial/UsuariosDBEstadisticas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Codigo/Inicial/UsuariosDBFichero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Codigo/Inicial/UsuariosDBMemoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Demo1/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Demo1/AnimalVolador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Demo1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Demo1/Perro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Demo1/Reloj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Demo1/RelojImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Demo1/RelojInteligente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../25. Aplicando la I de SOLID/solId/src/Demo1/RelojInteligenteImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soliD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DatabaseMySQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DatabaseSQLite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DatabaseStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../24. Aplicando la L de SOLID/soLid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../24. Aplicando la L de SOLID/soLid/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../27. Creación de proyectos con arquitectura limpia/demo/src/main/java/com/example/demo/entities/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../27. Creación de proyectos con arquitectura limpia/demo/src/main/java/com/example/demo/repositories/UsuariosDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../27. Creación de proyectos con arquitectura limpia/demo/src/main/java/com/example/demo/repositories/UsuariosDBFichero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../27. Creación de proyectos con arquitectura limpia/demo/src/main/java/com/example/demo/repositories/UsuariosDBMemoria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +36,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/danie/OneDrive/Documentos/Github/OpenBootcamp/Full Stack/Java Avanzado/25. Aplicando la I de SOLID/solId"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
