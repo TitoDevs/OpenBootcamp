@@ -14,10 +14,10 @@ export const ComponenteEstado = () => {
         // saludar();
     }, [partida]);
 
-
     const saludar = () => {
         console.log("Hola mundo");
     }
+    
     const sumarPartida = () => {
         setPartida(
             {
