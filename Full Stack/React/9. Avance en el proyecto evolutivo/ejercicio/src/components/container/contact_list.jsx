@@ -37,6 +37,18 @@ const ContactListComponent = () => {
         setContacts(tempContacts);
     }
 
+    function changeConnectionContact(contact) {
+        console.log('Change connection this contact: ', contact);
+        const index = contacts.indexOf(contact);
+        const tempContacts = [...contacts]
+        if(tempContacts[index].connection === CONNECTION.CONNECTED) {
+            tempContacts[index].connection = CONNECTION.DISCONNECTED;
+        } else {
+            tempContacts[index].connection = CONNECTION.CONNECTED;
+        }
+        setContacts(tempContacts);
+    }
+
     return (
         <div>
             <div className='col-12'>
@@ -63,7 +75,8 @@ const ContactListComponent = () => {
                                         <ContactComponent 
                                             key={index} 
                                             contact={contact}
-                                            remove={removeContact}>
+                                            remove={removeContact}
+                                            change={changeConnectionContact}>
                                         </ContactComponent>
                                     )
                                 })}

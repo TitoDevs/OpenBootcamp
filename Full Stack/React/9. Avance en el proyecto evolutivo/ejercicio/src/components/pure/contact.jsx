@@ -7,20 +7,20 @@ import '../../styles/contact.scss'
 import { CONNECTION } from '../../models/connection.enum';
 
 
-const ContactComponent = ({ contact, remove }) => {
+const ContactComponent = ({ contact, remove, change }) => {
 
     useEffect(() => {
-        console.log('Created task')
+        console.log('Created contact')
         return () => {
-            console.log(`Task: ${contact.name} is going to unmount`);
+            console.log(`Contact: ${contact.name} is going to unmount`);
         };
     }, [contact]);
 
     /**
      * Funtion that returns a Badge
-     * depending on the level of the task
+     * depending on the connection of the contact
      */
-    function taskLevelBadge() {
+    function contactConnectionBadge() {
         switch (contact.connection) {
             case CONNECTION.CONNECTED:
                 return(
@@ -38,6 +38,21 @@ const ContactComponent = ({ contact, remove }) => {
                 break;
         }
     }
+
+    function changeToggle() {
+        switch (contact.connection) {
+            case CONNECTION.CONNECTED:
+                return(
+                    <i className='bi bi-toggle-on contact-action' style={{ color: 'green'}} onClick={() => change(contact)}></i>
+                )
+            case CONNECTION.DISCONNECTED:
+                return(
+                    <i className='bi bi-toggle-off contact-action' style={{ color: 'grey'}} onClick={() => change(contact)}></i>
+                )
+            default:
+                break;
+        }
+    }
     
     return (
         <tr className='fw-normal'>
@@ -49,7 +64,10 @@ const ContactComponent = ({ contact, remove }) => {
             </td>
             <td className='align-middle'>
                 {/* Execution of function to return badge element */}
-                {taskLevelBadge()}
+                {contactConnectionBadge()}
+            </td>
+            <td className='align-middle'>
+                {changeToggle()}
             </td>
             <td className='align-middle'>
                 <i className='bi-trash contact-action' style={{ color: 'tomato'}} onClick={() => remove(contact)}></i>
@@ -61,7 +79,8 @@ const ContactComponent = ({ contact, remove }) => {
 
 ContactComponent.propTypes = {
     task: PropTypes.instanceOf(Contact).isRequired,
-    remove: PropTypes.func.isRequired
+    remove: PropTypes.func.isRequired,
+    change: PropTypes.func.isRequired
 };
 
 
