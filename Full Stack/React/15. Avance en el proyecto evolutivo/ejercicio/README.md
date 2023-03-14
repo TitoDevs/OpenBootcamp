@@ -1,3 +1,8 @@
+# Ejercicio: Avance en el proyecto evolutivo
+Partiendo del proyecto final, deberéis utilizar crear un formulario con el que crear tareas. Para hacer esto usaréis:
+- Formik para el formulario.
+- Yup para las validaciones.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
