@@ -1,3 +1,9 @@
+# Ejercicio: Avance en el proyecto evolutivo
+
+Crear el sistema de enrutado de la aplicación en React:
+- Permitir la navegación de Login a Registro y viceversa
+- No podremos acceder a Tareas a no ser que nos hayamos logeado primero.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
