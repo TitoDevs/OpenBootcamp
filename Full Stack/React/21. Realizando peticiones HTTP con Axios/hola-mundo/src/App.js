@@ -14,6 +14,7 @@ import RegiterFormik from './components/pure/forms/regiterFormik';
 import AsyncExample from './components/pure/AsyncExample';
 import ObservableExample from './components/pure/ObservableExample';
 import FetchExample from './components/pure/FetchExample';
+import AxiosExample from './components/pure/AxiosExample';
 
 function App() {
   return (
@@ -51,7 +52,8 @@ function App() {
       {/* Ejemplo de procesos asíncronos */}
       {/* <AsyncExample></AsyncExample> */}
       {/* <ObservableExample></ObservableExample> */}
-      <FetchExample></FetchExample>
+      {/* <FetchExample></FetchExample> */}
+      <AxiosExample></AxiosExample>
       {/* PROYECTO FINAL */}
       {/* <TaskListComponent></TaskListComponent> */}
     </div>
