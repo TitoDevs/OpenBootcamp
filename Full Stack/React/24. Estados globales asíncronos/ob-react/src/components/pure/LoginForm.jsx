@@ -1,7 +1,9 @@
-import React from 'react';
-import { Formik, Field, Form, ErrorMessage} from 'formik'
-import * as Yup from 'yup';
-import { useHistory } from 'react-router-dom';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Formik, Form, Field, ErrorMessage } from 'formik';
+import * as Yup from 'yup'
+
+import { Redirect } from 'react-router-dom'
 
 const loginSchema = Yup.object().shape(
     {
@@ -13,14 +15,12 @@ const loginSchema = Yup.object().shape(
     }
 );
 
-const LoginFormik = () => {
+const LoginForm = ({logged, fetching,  onLogin}) => {
 
     const initialCredentials = {
         email: '',
         password: ''
     }
-
-    const history = useHistory();
 
     return (
         <div>
@@ -32,11 +32,7 @@ const LoginFormik = () => {
                 validationSchema={ loginSchema }
                 // *** onSubmit Event
                 onSubmit={ async (values) => {
-                    await new Promise((r) => setTimeout(r, 1000));
-                    alert(JSON.stringify(values, null, 2));
-                    // We save the data in the localstorage
-                    await localStorage.setItem('credentials', values)
-                    history.push('/profile')
+                    onLogin(values.email, values.password)
                 }}>
 
                 {/* We obtain props from Formik */}
@@ -66,6 +62,7 @@ const LoginFormik = () => {
                             }
 
                             <button type='submit'>Submit</button>
+                            { fetching ? (<p>LOADING...</p>) : null}
                             { isSubmitting ? (<p>Login your credentianls...</p>) : null }
                         </Form>
                     )
@@ -75,4 +72,10 @@ const LoginFormik = () => {
     );
 }
 
-export default LoginFormik;
+LoginForm.propTypes = {
+    logged: PropTypes.bool.isRequired,
+    fetching: PropTypes.bool.isRequired,
+    onLogin: PropTypes.func.isRequired
+}
+
+export default LoginForm 

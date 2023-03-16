@@ -13,7 +13,7 @@ const AxiosExample = () => {
         getRandomUser()
             .then((response) => {
                 if(response.status === 200) {
-                    setUser(response.data.results);
+                    setUser(response.data.results[0]);
                 }
             })
             .catch((error) => {
@@ -26,27 +26,25 @@ const AxiosExample = () => {
             <h1>Axios Example</h1>
             <h2>
                 {
-                    user != null ?
+                    user !== null ?
                     (
                         <div>
-                            {/* <img alt='avatar' src={user.picture}></img> */}
+                            <img alt='avatar' src={user.picture.large}></img>
                             <h2>{user.name.title} {user.name.first} {user.last}</h2>
                             <h3>{user.email}</h3>
-
                         </div>
-                        
                     )
                     :
                     (
-                        <div>
-                            <p>Generate a new User</p>
-                            <button onClick={obtainUser}>
-                                Random User
-                            </button>
-                        </div>
-                        
+                        null
                     )
                 }
+                <div>
+                    <p>Generate a new User</p>
+                    <button onClick={obtainUser}>
+                        Random User
+                    </button>
+                </div>
             </h2>
         </div>
     );
