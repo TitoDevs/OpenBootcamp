@@ -1,3 +1,10 @@
+# Ejercicio: Avance en el proyecto evolutivo
+
+Utiliza useReducer y useContext para poder gestionar tareas en un proyecto de React. El proyecto debe permitir:
+- Crear tareas
+- Borrar tareas
+- Filtrar tareas
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
