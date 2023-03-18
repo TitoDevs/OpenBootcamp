@@ -1,4 +1,4 @@
-![3](https://user-images.githubusercontent.com/75398496/207724942-63144136-1e1f-45c7-83bd-e588e19cf692.png)
+![Banner Linkedin](https://user-images.githubusercontent.com/75398496/226126431-b0bda054-a40e-4f34-b416-a255ba2fa4b5.png)
 
 # ¿Qué es React JS?
 ReactJS es una biblioteca de JavaScript de código abierto diseñada para crear interfaces de usuario (UI) dinámicas y de 
